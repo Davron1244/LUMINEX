@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="careers.css">
+    <style>
+        .careers__top {
+            width: 100%;
+            flex-direction: row;
+            margin-top: 65px;
+        }
+        
+        .careers__top h2 {
+            font-size: 24px;
+            line-height: 44px;
+            color: #fff;
+            font-weight: 400;
+        }
+        
+        .events_card {
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .events_card_flex {
+            display: flex;
+            gap: 30px;
+            width: 363px;
+            padding: 21px 25px 25px 21px;
+        }
+        
+        .section__contact {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="d-flex justify-content-between align-items-center py-3">
+                <div class="header__left">
+                    <a href="index.html">
+                        <img src="./img/logo.svg" alt="Logo" />
+                    </a>
+                </div>
+                <div class="header__right d-flex align-items-center position-relative">
+                    <ul class="link-list list-unstyled d-flex gap-3 m-0 align-items-center">
+                        <li>
+                            <a class="hover" href="#">产品</a>
+                            <img id="menuContainer" src="img/Symbol.svg" alt="" />
+                        </li>
+                        <li>
+                            <a class="hover_2" href="#">关于我们</a>
+                            <img src="./img/Symbol.svg" alt="" />
+                        </li>
+                        <li>
+                            <a href="#">支持</a>
+                            <img src="./img/Symbol.svg" alt="" />
+                        </li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+
+                    <select class="lang form-select ms-3" name="lang" id="lang" style="width: auto">
+                            <option value="./events-uz.html">乌兹别克语</option>
+                            <option value="./events-ch.html">中文</option>
+                            <option value="./events-ru.html">俄语</option>
+                            <option selected value="./events-en.html">英语</option>
+                        </select>
+                    <img class="burger" src="./img/burger.svg" alt="" />
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="careers-section">
+            <div class="container">
+                <div class="careers">
+                    <div class="careers__top">
+                        <h2>活动
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="careers_about">
+            <div class="mod_breadcrumb block">
+                <div class="container">
+                    <ol style="display: flex; gap: 30px;" vocab="http://schema.org/" typeof="BreadcrumbList">
+                        <li property="itemListElement" typeof="ListItem" class="first" home="">
+                            <a property="item" typeof="WebPage" href="uz/home" title="Luminex">
+                                <span property="name">Luminex</span>
+                            </a>
+                            <meta property="position" content="1" />
+                        </li>
+                        <li property="itemListElement" typeof="ListItem">
+                            <a property="item" typeof="WebPage" href="uz/about/about-luminex" title="关于我们">
+                                <span property="name">关于我们</span>
+                            </a>
+                            <meta property="position" content="2" />
+                        </li>
+                        <li property="itemListElement" typeof="ListItem" class="active last">
+                            <a property="item" typeof="WebPage" href="uz/about/careers" title="Luminex职位空缺">
+                                <span property="name">
+                                Luminex职位空缺
+                            </span>
+                            </a>
+                            <meta property="position" content="3" />
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h1 class="events">活动</h1>
+                <div class="events__navbar">
+                    <div class="events_card">
+                        <img src="https://www.leyardeurope.eu/files/my_files/pic/Events/PIK%20Convention%202025.jpg" width="350" height="200" alt="" style="padding-left: 15px;" itemprop="image">
+                        <div class="events_card_flex">
+                            <div class="date">
+                                <h2>六月</h2>
+                                <hr class="line">
+                                <h1>26</h1>
+                            </div>
+                            <div class="date_more">
+                                <h1>PIK大会2025</h1>
+                                <h2>2025年6月26日</h2>
+                                <p>我们将参加2025年PIK大会！<br>欢迎于2025年6月26日在柏林Messe Berlin（北入口）Palais am Funkturm与我们见面。在PIK AG主办的本次活动中，我们将展示最新的LED显示屏和可视化解决方案。为您的项目获取灵感！</p>
+                                <a href="#">更多详情…</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events_card">
+                        <img src="https://www.leyardeurope.eu/files/my_files/pic/Events/PIK%20Convention%202025.jpg" width="350" height="200" alt="" style="padding-left: 15px;" itemprop="image">
+                        <div class="events_card_flex">
+                            <div class="date">
+                                <h2>七月</h2>
+                                <hr class="line">
+                                <h1>03</h1>
+                            </div>
+                            <div class="date_more">
+                                <h1>FreiRäume威斯巴登</h1>
+                                <h2>2025年7月3日 13:00</h2>
+                                <p>Q-SYS主办的FreiRäume活动将于2025年继续举行。重点在于体验：聆听未来，见证愿景，感受不同。精彩的产品新闻、独特的演讲和面对面交流等你来参与。2025年7月3日，巡展将在德国Schlangenbad的Hofgut Mappen举行。</p>
+                                <a href="#">更多详情…</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="events_card">
+                        <img src="https://www.leyardeurope.eu/files/my_files/pic/Events/PIK%20Convention%202025.jpg" width="350" height="200" alt="" style="padding-left: 15px;" itemprop="image">
+                        <div class="events_card_flex">
+                            <div class="date">
+                                <h2>七月</h2>
+                                <hr class="line">
+                                <h1>24</h1>
+                            </div>
+                            <div class="date_more">
+                                <h1>PIK大会2025</h1>
+                                <h2>2025年7月24日</h2>
+                                <p>Q-SYS主办的FreiRäume活动将于2025年继续举行。重点在于体验：聆听未来，见证愿景，感受不同。精彩的产品新闻、独特的演讲和面对面交流等你来参与。2025年7月24日，巡展将在德国慕尼黑附近的Glonn的Gut Sonnenhausen举行。</p>
+                                <a href="#">更多详情…</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__contact">
+            <div class="contact">
+                <h2>有问题？我们为您解答！</h2>
+                <p>获取有关价格、技术参数、安装等问题的答案</p>
+                <a href="#">联系我们</a>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="floating-icons">
+        <div class="icon-item">
+            <a href="https://mail.google.com/mail/u/0/#search/mawjutt%40gmail.com" target="_blank"><img src="img/newsletter icon.svg" alt="Newsletter"></a>
+            <div class="icon-label">订阅</div>
+        </div>
+        <div class="icon-item">
+            <a href="https://t.me/@guzellagman"><img src="img/email icon.svg" alt="Chat"></a>
+            <div class="icon-label">联系我们</div>
+        </div>
+        <div class="icon-item">
+            <a href=""><img width="25" height="25" src="img/chevron-up.svg" alt=""></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer__navbar">
+                <div class="footer__left">
+                    <p>© 2025 | Leyard Europe</p>
+
+                    <ul class="links">
+                        <li>
+                            <a href="">法律声明</a>
+                        </li>
+                        <li>
+                            <a href="#">隐私政策</a>
+                        </li>
+                        <li>
+                            <a href="#">职位空缺</a>
+                        </li>
+                        <li>
+                            <a href="#">订阅</a>
+                        </li>
+                        <li>
+                            <a href="#">合作伙伴门户</a>
+                        </li>
+                        <li>
+                            <a href="#">培训</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="loader-wrapper">
+        <img src="img/logo.svg" alt="">
+        <div class="loader">
+        </div>
+    </div>
+
+
+    <ul class="level_1">
+
+        <li class="first mm_container mm_904">
+            <a href="en/led-walls-made-in-europe" title="欧洲制造LED显示屏" class="first">室内LED显示屏</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <a href="en/led-walls-made-in-europe">
+                                <img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.leemanled.com/wp-content/uploads/2022/10/d2e93c0848b0dabd952fcf7cbdfc7fe9.webp" alt="欧洲制造LED显示屏">
+                            </a>
+                        </p>
+                        <h2>室内LED显示屏</h2>
+                        <p style="text-align: center;">单点校正技术，人性化亮度调节，高对比度。像素间距（毫米）：1.2/1.5/1.8/2/2.5/3/4</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="en/led-walls-made-in-europe" title="欧洲制造LED显示屏" class="first">新一代微间距LED显示产品</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <a href="en/led-walls-made-in-europe">
+                                <img style="display: block; margin-left: auto; margin-right: auto;" src="https://nseledcloud.com/wp-content/uploads/2023/05/Small-Pixel-Pitch-LED-Display-2.jpg" alt="欧洲制造LED显示屏">
+                            </a>
+                        </p>
+                        <h2>新一代微间距LED显示产品</h2>
+                        <p style="text-align: center;">微间距超高清显示。像素间距（毫米）：0.4/0.6/0.7/0.9/1.2/1.5/1.8</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="en/led-walls-made-in-europe" title="欧洲制造LED显示屏" class="first">LED薄膜屏</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <a href="en/led-walls-made-in-europe">
+                                <img style="display: block; margin-left: auto; margin-right: auto;" src="https://xled.com/wp-content/uploads/2024/09/P3-5.webp" alt="欧洲制造LED显示屏">
+                            </a>
+                        </p>
+                        <h2>LED薄膜屏</h2>
+                        <p style="text-align: center;">超轻超薄，高透光率，可任意裁剪，断点续传</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="#" title="COB小间距产品" class="first">新设计COB小间距产品</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.sands-led.com/uploads/led-indoor-display-a4.png" alt="COB小间距产品">
+                        </p>
+                        <h2>新设计COB小间距产品</h2>
+                        <p style="text-align: center;">采用RGB全倒装芯片，无接触驱动设计，领先的无焊封装工艺。<br>像素间距（毫米）：0.7 / 0.9 / 1.2 / 1.5 / 1.8</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="#" title="新一代LED显示屏" class="first">新一代LED小间距显示产品</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.leemanled.com/wp-content/uploads/2022/10/633412064eff3.webp" alt="新一代LED显示屏">
+                        </p>
+                        <h2>新一代LED小间距显示产品</h2>
+                        <p style="text-align: center;">一体化压铸铝合金中空结构，独立模块设计，磁吸安装。<br>像素间距（毫米）：0.9 / 1.2 / 1.5 / 1.8 / 2.5</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="#" title="高强度LED显示模块" class="first">高强度LED显示模块</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <img style="display: block; margin-left: auto; margin-right: auto;" src="https://image.made-in-china.com/2f0j00LcsWOteMrbfK/Indoor-Full-Color-High-Brightness-P4-LED-Display-Module-for-Advertising-Screen-Panel-Sign.webp" alt="高强度模块">
+                        </p>
+                        <h2>高强度LED显示模块</h2>
+                        <p style="text-align: center;">全前拆设计模块，45°倒角/直角，灵活拼接。</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="#" title="LED全彩显示箱体" class="first">LED全彩显示箱体</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <img style="display: block; margin-left: auto; margin-right: auto;" src="https://image.made-in-china.com/202f0j00nVmboYuCMIqy/High-Brightness-Waterproof-Advertising-Wall-P10-320-160mm-RGB-LED-Display-Module-4s-32-16-Pixel-Full-Color-Outdoor-LED-Module.webp"
+                                alt="全彩箱体">
+                        </p>
+                        <h2>LED全彩显示箱体</h2>
+                        <p style="text-align: center;">用于各种小间距LED显示产品。</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="#" title="室内LED屏" class="first">室内LED显示屏</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.hdledisplay.com/wp-content/uploads/2020/08/small-pixel-pitch-led-wall-1.png" alt="室内LED屏">
+                        </p>
+                        <h2>室内LED显示屏</h2>
+                        <p style="text-align: center;">一体化压铸铝控制卡HUB+电源。像素间距（毫米）：1.2 / 1.5 / 1.8 / 2.0 / 2.5</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="first mm_container mm_904">
+            <a href="#" title="前维护LED" class="first">前维护LED小间距微间距产品</a>
+            <div class="mm_dropdown mm_904">
+                <div class="inner">
+                    <div class="ce_text mm_sub_heading block">
+                        <p style="text-align: center;">
+                            <img style="display: block; margin-left: auto; margin-right: auto;" src="https://image.made-in-china.com/2f0j00sFaiyNKtknqE/HD-LED-Screen-Panel-P0-9-P1-2-P1-5-P1-8-16-9-Front-Service-Indoor-Small-Pixel-Pitch-LED-Wall-Display.webp" alt="前维护LED">
+                        </p>
+                        <h2>前维护LED小间距微间距产品</h2>
+                        <p style="text-align: center;">像素间距（毫米）：1.2 / 1.5 / 1.8 / 2.0 / 2.5</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+
+    </ul>
+
+    <ul class="level_2">
+
+        <li class="first">
+            <a href="./about.html" title="关于Luminex乌兹别克斯坦" class="first">关于Luminex乌兹别克斯坦</a>
+        </li>
+
+        <li class="first">
+            <a href="./careers.html" title="Luminex乌兹别克斯坦的职位和空缺">职位</a>
+        </li>
+        <li class="first">
+            <a href="./events.html" title="Luminex乌兹别克斯坦活动">活动</a>
+        </li>
+    </ul>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('lang').addEventListener('change', function() {
+            var url = this.value;
+            if (url) {
+                window.location.href = url;
+            }
+        });
+    </script>
+</body>
+
+</html>

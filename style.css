@@ -71,6 +71,7 @@ nav {
 }
 
 header {
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -360,6 +361,9 @@ option a {
 }
 
 @media screen and (max-width: 390px) {
+    header {
+        width: 100%;
+    }
     .header__right ul li {
         display: none;
     }
@@ -387,13 +391,17 @@ option a {
         flex-direction: column;
         align-items: center;
     }
+    .luminex__active img {
+        width: 250px;
+        height: 200px;
+    }
     .luminex_right img {
         display: none;
     }
     .luminex_active img {
         display: block;
-        width: 450px;
-        height: 400px;
+        width: 350px;
+        height: 200px;
     }
     .luminex__card__navbar {
         display: flex;
@@ -541,9 +549,10 @@ option a {
     }
     .luminex_active img {
         display: block;
-        width: 500px;
+        width: 450px;
         margin-left: -40px;
-        height: 400px;
+        height: 450px;
+        padding-left: 3px;
     }
     .luminex__navbar {
         display: flex;
@@ -1087,4 +1096,67 @@ footer {
     transition: all 0.3s ease;
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+/* carrers */
+
+.careers {
+    padding-top: 180px;
+}
+
+.careers-section {
+    background: url("./img/careers.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 384px;
+}
+
+.careers__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 1128px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.careers__top h2 {
+    font-weight: 300;
+    font-size: 32.19px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.careers__top button {
+    background: #B4181E;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16.18px;
+    line-height: 24.7px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    vertical-align: middle;
+}
+
+.careers__bottom {
+    background: #333333;
+    border-bottom: 4px solid #B4181E;
+}
+
+.careers__bottom h2 {
+    font-weight: 700;
+    padding: 19px 0px 15px 0px;
+    font-size: 12.47px;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
